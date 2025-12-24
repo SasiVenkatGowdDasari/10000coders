@@ -1,0 +1,123 @@
+button{
+    border: 1px solid transparent;
+    font-weight: 400;
+    text-align: center;
+    padding: .375rem .76rem;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    color:crimson;
+    padding-bottom: 10px;
+}
+
+.boot,.css1,.css2{
+    text-align: center;
+    margin: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 15px;
+}
+.Primary,.Primary1:hover{
+    background-color: #0d6efd ;
+    color: white;
+    border-radius: 4px;
+}
+
+.Secondary,.Secondary1:hover{
+    background-color: #6c757d;
+    color: white;
+    border-radius: 4px;
+}
+
+.Success,.Success1:hover{
+    background-color: #198754;
+    color: white;
+    border-radius: 4px;
+}
+
+.Danger,.Danger1:hover{
+    background-color: #dc3545;
+    color: white;
+    border-radius: 4px;
+}
+
+.Warning,.Warning1:hover{
+    background-color: #ffc107;
+    color: black;
+    border-radius: 4px;
+}
+
+.Info,.Info1:hover{
+    background-color: #0dcaf0;
+    color: black;
+    border-radius: 4px;
+}
+
+.Light,.Light1:hover{
+    background-color: #ffffff;
+    color: black;
+    border-radius: 4px;
+}
+
+.Dark,.Dark1:hover{
+    background-color: #000000;
+    color: white;
+    border-radius: 4px;
+}
+
+
+.Primary1{
+    background-color: transparent;
+    border-radius: 4px;
+    border-color: #0d6efd;
+    color: #0d6efd;
+}
+.Secondary1{
+    background-color: transparent;
+    border-radius: 4px;
+    border-color: #6c757d;
+    color: #6c757d;
+}
+.Success1{
+    background-color: transparent;
+    border-radius: 4px;
+    border-color: #198754;
+    color: #198754;
+}
+.Danger1{
+    background-color: transparent;
+    border-radius: 4px;
+    border-color: #dc3545;
+    color: #dc3545;
+}
+.Warning1{
+    background-color: transparent;
+    border-radius: 4px;
+    border-color: #ffc107;
+    color: #ffc107;
+}
+.Info1{
+    background-color: transparent;
+    border-radius: 4px;
+    border-color: #0dcaf0;
+    color: #0dcaf0;
+}
+
+.Light1{
+    background-color: transparent;
+    border-radius: 4px;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.Dark1{
+    background-color: transparent;
+    border-radius: 4px;
+    border-color: #000000;
+    color: #000000;
+}

@@ -1,0 +1,28 @@
+.profile_pic{
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(./Sharekhan.jpg);
+    background-size: cover;
+    border: 4px dotted red;
+    margin: auto;
+    margin-top: 15px;
+}
+.Profile_card{
+
+    width: 700px;
+    height: 550px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top:100px ;
+    border-radius: 3%;
+    background-color: rgb(173, 255, 212);
+    box-shadow: 3px 4px 5px darkcyan;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+span{
+    font-weight: bold;
+}

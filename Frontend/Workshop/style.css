@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(238, 226, 211);
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    color: black;
+    text-align: center;
+    padding-top: 0;
+    margin: 0;
+    height: 100px;
+    padding-bottom: 5px;
+
+    background-color: rgb(255, 209, 154);
+}
+
+#header a {
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: 700;
+
+}
+
+#header h1 {
+    padding: 10px;
+
+    margin: 0;
+}
+
+#hero {
+    text-align: center;
+    background-image: url("assets/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    align-items: center;
+    color: rgb(187, 13, 13);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+#hero h2 {
+    padding-top: 90px;
+}
+
+#container {
+    border-top: 30px solid black;
+    display: flex;
+    padding-top: 60px;
+
+}
+
+#items {
+    border-radius: 30px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    height: 520px;
+    color: rgb(88, 32, 32);
+    background-color: aliceblue;
+}
+
+#items p {
+    padding: 10px;
+}
+
+#items img {
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#items button {
+    margin-top: 30px;
+    border-radius: 20px;
+    height: 35px;
+    width: 100px;
+    background-color: brown;
+    color: whitesmoke;
+}
+
+#items:hover {
+    color: white;
+    background-color: rgb(88, 32, 32);
+    box-shadow: 3px 4px 4px rgb(183, 66, 66);
+}
+
+#items:hover button {
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+
+#items button:hover {
+    background: radial-gradient(red, rgb(238, 255, 0));
+
+    font-weight: bold;
+}
+
+.mar {
+    border-bottom: 30px solid black;
+    color: red;
+}
+
+.mar img {
+    height: 18px;
+}
+
+footer {
+    margin-top: 35px;
+    text-align: center;
+    background-color: rgb(228, 150, 41);
+    padding: 0.1px;
+}

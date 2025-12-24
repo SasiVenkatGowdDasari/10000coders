@@ -1,0 +1,78 @@
+.Task{
+    text-align: center;
+    color: red;
+}
+#Task-1 {
+    color: red;
+}
+
+.Task-2 > li{
+    background-color: aquamarine;
+}
+.Task-3 + p{
+    font-weight: bold;
+    color: darkblue;
+    background-color: lightgoldenrodyellow;
+    padding: 5px;
+    border-left: 3px solid darkblue;
+}
+
+.Task-4 ~ p{
+    color: green;
+}
+
+
+.Task-5 li:first-child{
+    font-weight: bold;
+}
+.Task-5 li:last-child{
+    font-style:italic ;
+}
+
+.Task-6:hover{
+    color: rgb(255, 0, 0);
+    background-color: yellow;
+    transform: scale(1.2);
+    box-shadow: 2px 3px 6px red;
+}
+.Task-6{
+    padding: 8px;
+    border-radius: 35%;
+    margin-left: 20px;
+}
+
+.Task-7{
+    text-align: center;
+    border:2px solid orange;
+    padding: 30px;
+    width: 300px;
+    margin: auto;
+    background-color: rgb(232, 224, 156);
+}
+.Task-7 input[type="button"]{
+    background-color: aqua;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.Task-7 input:focus{
+    border: 2px solid blue;
+    background-color: antiquewhite;
+    outline: none;
+
+}
+
+.Task-8::first-letter{
+    color: red;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.Task-9::before{
+    content:"🌟";
+}
+
+.Task-10::selection{
+    color: darkred;
+    background-color: blanchedalmond;
+}

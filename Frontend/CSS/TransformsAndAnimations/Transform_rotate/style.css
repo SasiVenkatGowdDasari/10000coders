@@ -1,0 +1,59 @@
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.child{
+    height: 300px;
+    width: 250px;
+    border: 2px solid red;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black;
+}
+#c1{
+    background-image: url('../Assets/day.webp');
+    background-size: cover;
+    transition: 2s;
+}
+#c1:hover{
+    transform: rotateY(180deg);
+    background-image: url('../Assets/night.jpg');
+}
+#c2{
+    background-image: url('../Assets/desert.jpg');
+    background-size: cover;
+    transition: 2s;
+}
+#c2:hover{
+    transform: rotateY(180deg);
+    background-image: url('../Assets/ocean.jpg');
+}
+#c3{
+    background-image: url('../Assets/Glacier.jpg');
+    background-size: cover;
+    transition: 2s;
+}
+#c3:hover{
+    transform: rotateY(180deg);
+    background-image: url('../Assets/Volcano.jpg');
+}
+#c4{
+    background-image: url(../Assets/summer.jpg);
+    background-size: cover;
+    transition: 2s;
+}
+#c4:hover{
+    transform: rotateY(180deg);
+    background-image: url(../Assets/winter.jpg);
+}
+#c5{
+    background-image: url(../Assets/Mount\ Everest.jpg);
+    background-size: cover;
+    transition: 2s;
+}
+#c5:hover{
+    transform: rotateY(180deg);
+    background-image: url(../Assets/valley.jpg);
+}

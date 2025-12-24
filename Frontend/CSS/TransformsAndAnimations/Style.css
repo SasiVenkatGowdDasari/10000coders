@@ -1,0 +1,21 @@
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.childs{
+    height: 300px;
+    width: 250px;
+    margin: 20px;
+    background-color: rgb(115, 193, 219);
+    border: 2px solid darkslateblue;
+    box-shadow: 0px 0px 10px blueviolet;
+    border-radius: 20px;
+    text-align: center;
+}
+.childs:hover{
+    transform: scale(1.1);
+    background: linear-gradient(blueviolet,darkslateblue,rgb(13, 98, 209));
+}
